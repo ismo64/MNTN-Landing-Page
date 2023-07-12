@@ -1,0 +1,73 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+}
+
+.no-scroll {
+  overflow-y: hidden;
+}
+
+body {
+  margin: 0;
+  font-family: "Gilroy";
+  background-color: #0B1D26;
+  background-image: url("../../images/bg/BG.jpg");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  color: #FFFFFF;
+}
+
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.space-between {
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.header {
+  padding-top: 64px;
+  padding-bottom: 843px;
+}
+
+.nav-wrapper {
+  margin-bottom: 198px;
+}
+
+.container-wide {
+  max-width: 1790px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.logo {
+  font-family: "Chronicle Bold";
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 38px;
+  letter-spacing: 0.01em;
+}
+
+.nav {
+  font-weight: 700;
+  font-size: 18px;
+}
+.nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+.nav li + li {
+  margin-left: 40px;
+}
